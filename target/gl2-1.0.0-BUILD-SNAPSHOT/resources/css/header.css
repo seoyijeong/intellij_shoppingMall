@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*초기화*/
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+/*header*/
+.header_top {
+	border-bottom: 0px solid #ececec;
+}
+
+.h1_logo img {
+	width: 200px;
+}
+
+.top_box_menu{
+	padding: 15px 0;
+}
+
+.top_member_box{
+	display: flex;
+/*	position: relative;*/
+	line-height: 1;
+	/*justify-content: right;*/
+	float: right;
+}
+.top_member_box li{
+	padding-right: 15px ;
+}
+.header_top{
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.icon_right{
+	display: flex;
+	/*position: relative;*/
+	line-height: 1;
+/*	float: right;*/
+}
+.icon_right img{
+	width: 26px;
+}
+
+.icon_right li{
+	padding-right: 15px ;
+}
+.main_content{
+/*	width: 100px;*/
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+.main_todaysale h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+nav.navbar {
+	background: crimson;
+}
+
+.nav-link {color:white;}
+
